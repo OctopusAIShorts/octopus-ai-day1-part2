@@ -1,0 +1,21 @@
+{
+  "name": "octopus-ai-day1-part2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "render": "remotion render src/index.ts Mascot out.mp4 --gl=swangle",
+    "studio": "remotion studio src/index.ts"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.2",
+    "@remotion/cli": "4.0.547",
+    "@remotion/three": "4.0.547",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.547",
+    "three": "0.187.0",
+    "typescript": "5.9.3",
+    "@types/react": "19.2.2",
+    "@types/three": "0.187.0"
+  }
+}
